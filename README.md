@@ -86,12 +86,12 @@ hashcat -m 1000 [Hashfile] [Wordlist] -r [Rules] --force
 Crack WPA2 Hashes  
 hashcat -m 22000 [Hashfile] -r [Rules] [Wordlist]
 
-Flags
--m 1000             ntlm hash
--m 2200             wpa2 hash
+Flags  
+-m 1000             ntlm hash  
+-m 2200             wpa2 hash  
 --force             Force Hashcat to start even if it detects system might not work correctly
 
-Helpful Hashcat Rules
+Helpful Hashcat Rules  
 rules/best64.rule
 
 ### John the Ripper
